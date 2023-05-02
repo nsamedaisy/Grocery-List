@@ -1,40 +1,40 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&family=Yellowtail&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-image: url("../images/foodspice.jpeg");
+  background-image: url("../images/spice\ decol.jpeg");
   background-position: center;
-  font-family: Roboto,
+  font-family: Yellowtail,
     sans-serif;
   display: flex;
   flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	margin: 0;
-	overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
 }
 
 .container {
-  width: 60%;
+  width: 70%;
   margin: auto;
   display: flex;
   text-align: center;
 }
 
 .groceries {
-  width: 700px;
+  width: 100%;
   min-height: 100vh;
   margin: auto;
-  box-shadow: 10px 10px 24px 0 black;
-  background-color: #1f170996;
+  box-shadow: 10px 10px 24px #865903;
+  background-color: #443c2d7c;
 }
 
 .groceries h1 {
-  font-size: 35px;
+  font-size: 60px;
   color: orange;
 }
 
