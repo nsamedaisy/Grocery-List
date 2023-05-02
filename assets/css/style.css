@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&family=Yellowtail&display=swap');
 
 * {
   box-sizing: border-box;
@@ -14,5 +14,59 @@ body {
 	height: 100vh;
 	margin: 0;
 	overflow: hidden;
+}
+
+.container {
+  border: 1px solid black;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.groceries {
+  width: 600px;
+  min-height: 100vh;
+  margin: auto;
+  box-shadow: 10px 10px 24px 0 black;
+}
+
+.groceries h1 {
+  font-size: 35px;
+  margin-top: 16px;
+}
+
+.groceries i {
+  font-size: 32px;
+  color: orange;
+}
+
+.groceries input {
+  font-family: inherit;
+  border-bottom: 3px solid black;
+  width: 70%;
+}
+
+#allItems h2 {
+  margin: 15px 10px 0 50px;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 480px) {
+  .groceries h1 {
+    font-size: 32px;
+  }
+
+  .groceries i {
+    font-size: 24px;
+  }
+
+  .groceries input {
+    font-size: 16px;
+  }
+
+  #allItems h2 {
+    font-size: 22px;
+    margin-left: 25px;
+  }
 }
 
