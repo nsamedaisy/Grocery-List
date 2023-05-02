@@ -5,6 +5,8 @@
 }
 
 body {
+  background-image: url("../images/foodspice.jpeg");
+  background-position: center;
   font-family: Roboto,
     sans-serif;
   display: flex;
@@ -17,22 +19,23 @@ body {
 }
 
 .container {
-  border: 1px solid black;
-  width: 90%;
+  width: 60%;
   margin: auto;
   display: flex;
+  text-align: center;
 }
 
 .groceries {
-  width: 600px;
+  width: 700px;
   min-height: 100vh;
   margin: auto;
   box-shadow: 10px 10px 24px 0 black;
+  background-color: #1f170996;
 }
 
 .groceries h1 {
   font-size: 35px;
-  margin-top: 16px;
+  color: orange;
 }
 
 .groceries i {
@@ -42,13 +45,21 @@ body {
 
 .groceries input {
   font-family: inherit;
-  border-bottom: 3px solid black;
   width: 70%;
+  padding: 20px;
+  background-color: #5c451b85;
+  border: none;
+  box-shadow: 10px 10px 10px;
+  color: orange;
+  font-size: 30px;
 }
 
 #allItems h2 {
-  margin: 15px 10px 0 50px;
-  font-size: 32px;
+  margin: 35px 0 0 90px;
+  font-size: 24px;
+  text-align: left;
+  color: orange;
+  font-size: 34px;
 }
 
 @media screen and (max-width: 480px) {
@@ -69,4 +80,3 @@ body {
     margin-left: 25px;
   }
 }
-
